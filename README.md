@@ -13,7 +13,7 @@ Even though vim is usually only found on Linux machines, there are several exten
 2. What it does:
   * [Windows] (http://vim.wikia.com/wiki/Category:Windows): once downloaded you can right click on a file and select Edit with Vim or run the application gVim X.X to create a new file
     * You can also call it from a terminal window with `gvim 'filename'`
-  * [Visual Studio] (http://www.techrepublic.com/blog/software-engineer/vsvim-brings-the-power-of-vim-to-visual-studio/): the files in the IDE you open can be edited and navigated with normal vim features
+  * [Visual Studio] (http://www.techrepublic.com/blog/software-engineer/vsvim-brings-the-power-of-vim-to-visual-studio/): the files in the IDE you open can be edited and navigated with normal vim features
     * You can edit which hotkeys work in VS: Tools tab > Options > VsVim > Keyboard
     * To disable/enable: Tools > Extensions and Updates > Installed > Tools > VsVim
 3. The nice thing about vim is that it is very customizable (more on this below). 
@@ -31,7 +31,7 @@ Even though vim is usually only found on Linux machines, there are several exten
   * Insert before cursor (i), insert at beginning of line (I)
   * Insert after cursor (a), insert at end of line (A)
   * Copy entire line (yy), paste before cursor (P), paste after cursor (p)
-* There are three other modes aside from Normal Mode:
+* There are three other modes aside from Normal Mode (`<ESC>` returns you to this mode):
   * Command (Press `:`)
     * Save file: `w`
     * Quit file: `q`
@@ -47,7 +47,7 @@ Even though vim is usually only found on Linux machines, there are several exten
 * If you want to do a specific behavior, chances are people on the internet have  provided ways to do it
 * Use the_vimrc file (.vimrc in linux) to customize vim to your needs
   * [Vim Mapping tutorial] (http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1))
-  * It is very much recommended to map the `<ESC>` key (This exits your current mode to normal)
+  * It is very much recommended to map the `<ESC>` key
     * I map mine to `kj` for a quick keystroke
   * I have attached a [ _vimrc text file] (https://github.com/jteves/Vim-Config/blob/master/_vimrc) for the customizations I have
   * File location again: `C:\Users\[Your Username]`
