@@ -1,4 +1,6 @@
-colorscheme koehler           " Color Scheme of editor
+colorscheme desert " Color Scheme of editor
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
 
 " Delete, copy, paste, and search commands
 nnoremap <c-c> "+y
@@ -36,19 +38,18 @@ nmap <CR> o<Esc>
 map ; :
 noremap ;; ;
 
-
 " Removes clutter
 if has('gui_running')
-  set guioptions-=T           " remove the toolbar
-  set lines=40                " 40 lines of text instead of 24,
+	set guioptions-=T           " remove the toolbar
+	set lines=40                " 40 lines of text instead of 24,
 else
-  set term=builtin_ansi       " Make arrow and other keys work
+	set term=builtin_ansi       " Make arrow and other keys work
 endif
 
 " Adds status bar
 if has('cmdline_info')
-  set ruler                   " show the ruler
-  set showcmd                 " show partial commands in status line and
+	set ruler                   " show the ruler
+	set showcmd                 " show partial commands in status line
 endif
 
 " Word wrapping option
