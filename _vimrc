@@ -1,3 +1,7 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 colorscheme desert " Color Scheme of editor
 set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
