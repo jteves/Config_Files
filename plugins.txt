@@ -1,0 +1,7 @@
+Start at:
+https://github.com/tpope/vim-pathogen
+
+Color Scheme:
+http://vimawesome.com/plugin/vim-colors-solarized-ours
+
+
