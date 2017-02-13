@@ -1,8 +1,12 @@
-execute pathogen#infect()
+"For Plugins
+"execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme desert " Color Scheme of editor
+"Colorscheme and cursor
+syntax enable
+set background=dark
+colorscheme koehler " Color Scheme of editor
 set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
 
@@ -31,10 +35,10 @@ inoremap <c-v> <F10><C-r>+<F10>
 :nmap <Space> 0
 :nmap <Space><Space> $
 :nmap <s-u> <c-r>
-:nmap <c-j> <PageDown>
-:nmap <c-k> <PageUp>
+:nmap <c-j> 6j
+:nmap <c-k> 6k
 :nmap <c-h> B
-:nmap <c-l> W
+:nmap <c-l> E
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 
