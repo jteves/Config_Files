@@ -22,7 +22,7 @@ set incsearch
 :set smartcase
 set pastetoggle=<F10>
 inoremap <c-v> <F10><C-r>+<F10>
-:nmap <c-s-Space> ggVG"+y<c-o><c-o>
+:nmap <s-y><s-y> ggVG"+y<c-o><c-o>
 :vnoremap <c-p> "_dP
 :nnoremap <c-n> gn
 :vnoremap <c-n> <Esc>ngn
