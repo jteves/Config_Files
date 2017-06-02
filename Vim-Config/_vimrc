@@ -8,7 +8,7 @@ syntax enable
 set background=dark
 colorscheme koehler " Color Scheme of editor
 set cursorline
-hi CursorLine term=bold cterm=bold guibg=Grey40
+hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 " Delete, copy, paste, and search commands
 nnoremap <c-c> "+y
@@ -17,34 +17,34 @@ nnoremap <s-y> yiw
 set clipboard=unnamed
 set backspace=indent,eol,start
 set incsearch
-:set hlsearch
-:set ignorecase
-:set smartcase
+set hlsearch
+set ignorecase
+set smartcase
 set pastetoggle=<F10>
 inoremap <c-v> <F10><C-r>+<F10>
-:nmap <s-y><s-y> ggVG"+y<c-o><c-o>
-:vnoremap <c-p> "_dP
-:nnoremap <c-n> gn
-:vnoremap <c-n> <Esc>ngn
-:vnoremap <c-n> <Esc>ngn
-:vnoremap <c-n> <Esc>ng<s-N>
+nmap <s-y><s-y> ggVG"+y<c-o><c-o>
+vnoremap <c-p> "_dP
+nnoremap <c-n> gn
+vnoremap <c-n> <Esc>ngn
+vnoremap <c-n> <Esc>ngn
+vnoremap <c-n> <Esc>ng<s-N>
+vnoremap // y/\V<C-R>"<CR>N
 
 " Key Mappings
-:imap kj <Esc>
-:nmap <BS> 0
-:nmap <Space> 0
-:nmap <Space><Space> $
-:nmap <s-u> <c-r>
-:nmap <c-j> 6j
-:nmap <c-k> 6k
-:nmap <c-h> B
-:nmap <c-l> E
-nmap <S-Enter> O<Esc>
+imap kj <Esc>
+nmap <BS> 0
+nmap <Space> $
+nmap <s-u> <c-r>
+nmap <c-j> 4j
+nmap <c-k> 4k
+nmap <c-h> B
+nmap <c-l> E
 nmap <CR> o<Esc>
 
 " ; enters cmdline mode. ;; replaces original motion
-map ; :
-noremap ;; ;
+noremap ; :
+noremap : ;
+noremap ;; :!
 
 " Removes clutter
 if has('gui_running')
@@ -61,8 +61,8 @@ if has('cmdline_info')
 endif
 
 " Word wrapping option
-:set formatoptions=l
-:set lbr
+set formatoptions=l
+set lbr
 noremap  <buffer> <silent> k gk
 noremap  <buffer> <silent> j gj
 noremap  <buffer> <silent> 0 g0
