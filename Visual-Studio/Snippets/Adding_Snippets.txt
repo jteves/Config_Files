@@ -1,0 +1,8 @@
+To add the snippets in VS2015, copy the following into the path:
+	internally: 
+		C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC#\Snippets\1033\Visual C#
+	custom: 
+		VS > Tools > Code Snippets Manager > Import
+
+My snippet rules:
+	brace.snippet - braces

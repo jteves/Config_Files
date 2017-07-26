@@ -13,7 +13,7 @@ hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=whi
 " Delete, copy, paste, and search commands
 nnoremap <c-c> "+y
 vnoremap <c-c> "+y
-nnoremap <s-y> yiw
+nnoremap <s-y> y$
 set clipboard=unnamed
 set backspace=indent,eol,start
 set incsearch
@@ -22,7 +22,9 @@ set ignorecase
 set smartcase
 set pastetoggle=<F10>
 inoremap <c-v> <F10><C-r>+<F10>
-nmap <s-y><s-y> ggVG"+y<c-o><c-o>
+inoremap <c-k> <Up>
+inoremap <c-j> <Down>
+nmap <s-v><s-v> ggVG
 vnoremap <c-p> "_dP
 nnoremap <c-n> gn
 vnoremap <c-n> <Esc>ngn
@@ -32,6 +34,8 @@ vnoremap // y/\V<C-R>"<CR>N
 
 " Key Mappings
 imap kj <Esc>
+"Removes searched highlights
+nnoremap <C-_> :noh<CR> 
 nmap <BS> 0
 nmap <Space> $
 nmap <s-u> <c-r>
