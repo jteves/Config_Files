@@ -1,3 +1,9 @@
+"Crucial mappings
+imap kj <Esc>
+nmap <s-u> <c-r>
+noremap ; :
+nnoremap <s-y> y$
+
 "For Plugins
 "execute pathogen#infect()
 syntax on
