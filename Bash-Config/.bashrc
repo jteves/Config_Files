@@ -8,3 +8,4 @@ alias test='cd ~/Desktop/Tests'
 alias workspace='cd /c/Users/jacobteves/Desktop/workspace'
 alias download='cd ~/Downloads'
 
+alias tm='~/dtmux'
