@@ -6,4 +6,6 @@ alias church='cd ~/Documents/Church'
 alias ws='cd ~/workspace'
 alias dl='cd ~/Downloads'
 
+#shortened commands
+alias ll='ls -al'
 alias tm='~/dtmux'
