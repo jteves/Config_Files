@@ -7,5 +7,5 @@ alias ws='cd ~/workspace'
 alias dl='cd ~/Downloads'
 
 #shortened commands
-alias ll='ls -al'
+alias ll='clear;ls -al'
 alias tm='~/dtmux'
