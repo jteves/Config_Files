@@ -1,0 +1,9 @@
+imap kj <Esc>
+nmap <s-u> <c-r>
+noremap ; :
+nnoremap <s-y> y$
+
+nmap <c-j> 6j
+nmap <c-k> 6k
+nmap <c-h> B
+nmap <c-l> E
