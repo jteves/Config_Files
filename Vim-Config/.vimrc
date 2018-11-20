@@ -4,18 +4,6 @@ nmap <s-u> <c-r>
 noremap ; :
 nnoremap <s-y> y$
 
-"For Plugins
-"execute pathogen#infect()
-syntax on
-filetype plugin indent on
-
-"Colorscheme and cursor
-syntax enable
-set background=dark
-colorscheme koehler " Color Scheme of editor
-set cursorline
-hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
-
 " Delete, copy, paste, and search commands
 nnoremap <c-c> "+y
 vnoremap <c-c> "+y
@@ -55,20 +43,6 @@ nmap <CR> o<Esc>
 noremap ; :
 noremap : ;
 noremap ;; :!
-
-" Removes clutter
-if has('gui_running')
-	set guioptions-=T           " remove the toolbar
-	set lines=40                " 40 lines of text instead of 24,
-else
-	set term=builtin_ansi       " Make arrow and other keys work
-endif
-
-" Adds status bar
-if has('cmdline_info')
-	set ruler                   " show the ruler
-	set showcmd                 " show partial commands in status line
-endif
 
 " Word wrapping option
 set formatoptions=l
