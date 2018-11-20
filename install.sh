@@ -10,6 +10,6 @@ cat /etc/skel/.profile >> ~/.bash_profile
 
 cp Tmux-Config/.tmux.conf ~/
 cp Tmux-Config/dtmux ~/
-cp Vim-Config/_vimrc ~/
+cp Vim-Config/.vimrc ~/
 
 . ~/.bash_profile
