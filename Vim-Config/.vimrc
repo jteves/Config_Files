@@ -47,8 +47,8 @@ nmap <Space> $
 nmap <s-u> <c-r>
 nmap <c-j> 4j
 nmap <c-k> 4k
-nmap <c-h> B
-nmap <c-l> E
+nmap <c-h> 4b
+nmap <c-l> 4e
 nmap <CR> o<Esc>
 
 " ; enters cmdline mode. ;; replaces original motion
