@@ -49,6 +49,6 @@ Even though vim is usually only found on Linux machines, there are several exten
   * [Vim Mapping tutorial] (http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1))
   * It is very much recommended to map the `<ESC>` key
     * I map mine to `kj` for a quick keystroke
-  * I have attached a [ _vimrc text file] (https://github.com/jteves/Vim-Config/blob/master/_vimrc) for the customizations I have
+  * I have attached a [ _vimrc text file] (https://github.com/jteves/Config_Files/blob/master/Vim-Config/.vimrc) for the customizations I have
   * File location again: `C:\Users\[Your Username]`
 * Keep an open mind for key functionalities you don’t normally use
