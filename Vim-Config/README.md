@@ -1,5 +1,5 @@
 # Getting Started with Vim on Windows
-###Summary:
+### Summary:
 If you have not heard about it, it is essentially a text editor that is normally found on Linux OS. It is unique from other editors in that it doesn’t require a single mouse stroke or click to navigate through the file that is being edited. On top of that, it has several hot keys for shortcuts to speed up your read, write, and navigation throughout the code. You can customize those hotkeys or create new hotkeys to fit your standards, too. It does have a learning curve to it and may seem really different at first, but ever since I started using it, I have noticed the power of it and the boost in productivity it can provide.
 
 Here is an [article] (http://www.makeuseof.com/tag/top-7-reasons-to-give-the-vim-text-editor-a-chance/) and [youtube video] (https://www.youtube.com/watch?v=_NUO4JEtkDw) on why to use vim.
@@ -20,7 +20,7 @@ Even though vim is usually only found on Linux machines, there are several exten
   1. For both the windows (gVim) and Visual Studio (VsVim) versions, you can do this in the file `_vimrc`
   2. This file is located at `C:\Users\[Your Username]`
 
-###Here are some basic things to do with Vim inside a file:
+### Here are some basic things to do with Vim inside a file:
 * Navigate and edit an entire file without moving your hand to the mouse or the arrow buttons
 * Some navigation keystrokes:
   * up (k), down (j), left (h), right (l)
@@ -42,7 +42,7 @@ Even though vim is usually only found on Linux machines, there are several exten
   * Go through each one with `n` (search forward) and `N` (search backward)
   * Pressing `*` in normal mode will search for the entire word under the cursor, automatically
 
-###Tips and Tricks:
+### Tips and Tricks:
 * Keep a copy of a [cheatsheet] (http://www.viemu.com/vi-vim-cheat-sheet.gif) for key functionality – quite important when first starting
 * If you want to do a specific behavior, chances are people on the internet have  provided ways to do it
 * Use the_vimrc file (.vimrc in linux) to customize vim to your needs
