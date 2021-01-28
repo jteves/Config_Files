@@ -5,44 +5,27 @@ noremap ; :
 nnoremap <s-y> y$
 
 " Delete, copy, paste, and search commands
-nnoremap <c-c> "+y
-vnoremap <c-c> "+y
-nnoremap <s-y> y$
 set clipboard=unnamed
 set backspace=indent,eol,start
 set incsearch
 set hlsearch
 set ignorecase
 set smartcase
-set pastetoggle=<F10>
-inoremap <c-v> <F10><C-r>+<F10>
-inoremap <c-k> <Up>
-inoremap <c-j> <Down>
 nmap <s-v><s-v> ggVG
-vnoremap <c-p> "_dP
-nnoremap <c-n> gn
-vnoremap <c-n> <Esc>ngn
-vnoremap <c-n> <Esc>ngn
-vnoremap <c-n> <Esc>ng<s-N>
-vnoremap // y/\V<C-R>"<CR>N
 
-" Key Mappings
-imap kj <Esc>
-"Removes searched highlights
-nnoremap <C-_> :noh<CR> 
 nmap <BS> 0
 nmap <Space> $
 nmap <s-u> <c-r>
-nmap <c-j> 4j
-nmap <c-k> 4k
-nmap <c-h> 4b
-nmap <c-l> 4e
+nmap <s-m> <s-j>
+nmap <s-j> 4j
+nmap <s-k> 4k
+nmap <s-h> 4b
+nmap <s-l> 4e
 nmap <CR> o<Esc>
 
 " ; enters cmdline mode. ;; replaces original motion
 noremap ; :
 noremap : ;
-noremap ;; :!
 
 " Word wrapping option
 set formatoptions=l
