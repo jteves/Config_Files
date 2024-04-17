@@ -2,7 +2,9 @@
 imap kj <Esc>
 nmap <s-u> <c-r>
 noremap ; :
-nnoremap <s-y> y$
+" ; enters cmdline mode. ;; replaces original motion
+noremap : ;
+noremap <s-y> y$
 
 " Delete, copy, paste, and search commands
 set clipboard=unnamed
@@ -21,16 +23,14 @@ nmap <s-j> 4j
 nmap <s-k> 4k
 nmap <s-h> 4b
 nmap <s-l> 4e
-nmap <CR> o<Esc>
+noremap <CR> o<Esc>
+noremap <s-CR> <s-o><Esc>
 
-" ; enters cmdline mode. ;; replaces original motion
-noremap ; :
-noremap : ;
-
-" Word wrapping option
-set formatoptions=l
-set lbr
-noremap  <buffer> <silent> k gk
-noremap  <buffer> <silent> j gj
-noremap  <buffer> <silent> 0 g0
-noremap  <buffer> <silent> $ g$
+vmap p pgvy
+vnoremap <s-m> <s-j>
+vnoremap <s-j> 4j
+vmap <s-k> 4k
+vmap <s-l> 4e
+vmap <s-h> 4b
+vmap <BS> 0
+vmap <Space> $
